@@ -1,0 +1,13 @@
+.img_cir {
+    border-radius: 50%;
+    max-height: 350px; 
+    width: 100%; 
+  }
+  
+  @media (min-width: 768px) { 
+    .img_cir {
+        max-width: 400px;
+        height: auto; 
+    }
+  }
+  

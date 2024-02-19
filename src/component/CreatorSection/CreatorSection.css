@@ -1,0 +1,38 @@
+.creator_text{
+    text-align: center;
+    color: #636977;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.9em;
+  }
+  
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .siz {
+    width: 100px; 
+    height: auto; 
+  }
+  
+  .img_heading{
+      color: #FFFFFF;
+      font-family: "Raleway", Sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.3em;
+      letter-spacing: 0.2px;
+  }
+  
+  .img_text{
+      text-align: center;
+      color: #FFFFFF7A;
+      font-family: "DM Sans", Sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0px;
+  }
+  

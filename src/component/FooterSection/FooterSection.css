@@ -1,0 +1,26 @@
+
+  
+  /* foooter----------------- */
+  .copyright_ba{
+    text-align: start;
+    color: #9097aa;
+  }
+  
+  .foot-li{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  .foot_text{
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: -0.009em;
+  }
+  
+  .btn_foot{
+      background-color: #36bb91;
+      border-radius: 15px;
+      z-index: 1;
+  }
+  

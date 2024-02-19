@@ -1,0 +1,58 @@
+.community_head{
+    color: #2cbca5;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .community_text{
+      color: #FFFFFF7A;
+      font-family: "DM Sans", Sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 1.9em;
+  }
+  
+  .load_more span{
+    color: #36bb91;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #36bb91;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 0px 8px 0px;
+  }
+  
+  .load_more span:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white; 
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 0px 8px 0px;
+  }
+  
+  #scalingImage {
+    width: 80%; /* Adjust width for responsiveness */
+    max-width: 500px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 27%; /* Adjust border radius for circular shape */
+    margin-top: 40px; /* Adjust margin-top for medium and large screens */
+    animation: growAndShrink 2s ease-in-out forwards;
+  }
+  
+  @keyframes growAndShrink {
+    0% { transform: scale(0.3); } 
+    100% { transform: scale(1); } 
+  }
+  
+  @media (max-width: 768px) { /* Adjust styles for small devices */
+    #scalingImage {
+        width: 60%; /* Reduce width for smaller screens */
+        margin-top: 0; /* Remove margin-top for smaller screens */
+    }
+  }
+  

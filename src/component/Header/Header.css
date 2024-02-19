@@ -1,0 +1,58 @@
+header {
+  background-color: black;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;      /*for adjusting the spacing between menu items */
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  /* overflow-x: auto; */
+}
+
+.logo{
+font-size: 28px;
+font-weight: 800;
+color: #fff;
+}
+
+
+.button_menu{
+background-color: black;
+color: white;
+border: 1px solid white;
+width: 120px;
+height: 35px;
+border-radius: 25px;
+}
+.button_menu:hover{
+background-color: white;
+color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+display: block;
+color: #fff;
+background-color: #6c757d;
+}
+
+.dropdown-menu{
+color: #FFFFFF;
+}
+
+.dropdown-menu a:hover{
+background-color: #6b6666;
+color: #FFFFFF;
+}
+
+.nav_col:hover{
+color: #36bb91;
+
+}
+

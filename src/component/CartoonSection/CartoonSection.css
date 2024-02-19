@@ -1,0 +1,152 @@
+
+.monster_image{
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  .space{
+    margin-top: 90px;
+  } 
+  
+  .start{
+    padding-left: 30px;
+  }
+  
+  
+  .info_sec{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Raleway", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.3em;
+  }
+  
+  .paul{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .text-info {
+    /* margin-top: 5px 0px 0px 20px; */
+    padding: 5px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Custom properties for box class */
+  .custom-box {
+    background-color: var(--box-bg-color, #333333);
+    border-radius: var(--box-border-radius, 25px);
+    height: var(--box-height, 360px);
+    width: var(--box-width, 450px);
+  }
+  
+  .place_bid1 {
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    background-color: #3772FF;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 16px 100px;
+    border-radius: 30px;
+    border-color: #3772FF;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+  
+  .place_bid1:hover{
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 16px 100px;
+    letter-spacing: 0.5px;
+    background-color: #36bb91;
+    border-radius: 30px;
+    font-weight: 700;
+  }
+  
+  
+  @media only screen and (max-width: 700px) {
+    .custom-box {
+        width: 100%; /* Make the box full width on small screens */
+    }
+    .info_sec{
+      padding-top: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      font-family: "Raleway", Sans-serif;
+      font-size: 55px;
+      font-weight: 500;
+      line-height: 1em;
+  }
+  .place_bid1 {
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    background-color: #3772FF;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border-color: #3772FF;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+  }
+  .place_bid1:hover {
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    background-color: #36bb91;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border-color: #36bb91;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+  }
+  }
+  
+  
+  .current{
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #fff;
+    padding-top: 24px;
+  }
+  
+  .eth{
+      color: #FFFFFF;
+      font-family: "DM Sans", Sans-serif;
+      font-size: 43px;
+      font-weight: 700;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+  }
+  
+  .dollar{
+    color: #7A8293;
+    font-family: "Raleway", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0px;
+  }
+  
+  .tex{ 
+    text-align: center;
+    color: #FFFFFF8C;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 53px 5px 50px;
+  }
+  

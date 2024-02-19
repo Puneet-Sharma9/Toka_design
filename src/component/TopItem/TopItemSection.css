@@ -1,0 +1,58 @@
+.border_rad{
+    border-radius: 20px;
+  }
+  
+  .card_heading{
+      font-family: "Raleway", Sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff !important;
+  }
+  
+  .common_card{
+    background-color: #23262F !important; 
+    border-radius: 25px !important;
+    padding: 20px 20px 5px 20px;
+  }
+  
+  .card_bid{
+      text-decoration: none;
+      color: #3772ff;
+      padding: 10px 30px;
+      border: 1px solid #3772ff;
+      border-radius: 35px;
+      font-family: "Raleway", Sans-serif;
+      cursor: pointer;
+  }
+  
+  .card_bid:hover{
+      color: white;
+      padding: 10px 30px;
+      border: 1px solid #3772ff;
+      background-color: #3772ff;
+      border-radius: 35px;
+      font-family: "Raleway", Sans-serif;
+      cursor: pointer;
+  }
+  
+  .common_pink span{
+    color: #FE84F1;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #FE84F1;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 0px 8px 0px;
+    cursor: pointer;
+  }
+  
+  .common_pink span:hover{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white; 
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 0px 8px 0px;
+  }
+  
